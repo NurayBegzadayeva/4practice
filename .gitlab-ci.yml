@@ -1,0 +1,22 @@
+stages:
+  - test
+
+cache:
+  paths:
+    - node_modules/
+
+test:
+  image: node:20
+  stage: test
+
+  script:
+    - npm ci
+    - npm test
+
+  artifacts:
+    when: always
+    paths:
+      - coverage/
+      - reports/
+    reports:
+      junit: reports/junit.xml

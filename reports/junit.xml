@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.424">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.233" tests="5">
+    <testcase classname=" index builds correctly" name=" index builds correctly" time="0.003">
+    </testcase>
+    <testcase classname=" case insensitive" name=" case insensitive" time="0">
+    </testcase>
+    <testcase classname=" multiple words" name=" multiple words" time="0">
+    </testcase>
+    <testcase classname=" empty array" name=" empty array" time="0">
+    </testcase>
+    <testcase classname=" throws on wrong input" name=" throws on wrong input" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.049" tests="2">
+    <testcase classname=" integration: load + index + search" name=" integration: load + index + search" time="0.001">
+    </testcase>
+    <testcase classname=" integration: file not empty" name=" integration: file not empty" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.046" tests="3">
+    <testcase classname=" find existing word" name=" find existing word" time="0">
+    </testcase>
+    <testcase classname=" missing word returns empty" name=" missing word returns empty" time="0">
+    </testcase>
+    <testcase classname=" negative: empty query throws" name=" negative: empty query throws" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
