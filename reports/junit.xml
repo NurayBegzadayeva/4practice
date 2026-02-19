@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.424">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.233" tests="5">
+<testsuites name="jest tests" tests="10" failures="1" errors="0" time="0.918">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2026-02-19T04:35:58" time="0.616" tests="5">
     <testcase classname=" index builds correctly" name=" index builds correctly" time="0.003">
     </testcase>
-    <testcase classname=" case insensitive" name=" case insensitive" time="0">
+    <testcase classname=" case insensitive" name=" case insensitive" time="0.001">
     </testcase>
     <testcase classname=" multiple words" name=" multiple words" time="0">
     </testcase>
-    <testcase classname=" empty array" name=" empty array" time="0">
+    <testcase classname=" empty array" name=" empty array" time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 5
+Received: 4
+    at Object.toBe (C:\ПРАКТИКА ДЕВОПС\4 practice\tests\indexer.test.js:20:15)
+    at Promise.finally.completed (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+    at _callCircusTest (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+    at C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+    at _runTestsForDescribeBlock (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+    at run (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+    at runAndTransformResultsToJestFormat (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+    at jestAdapter (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-circus\build\runner.js:101:19)
+    at runTestInternal (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-runner\build\index.js:275:16)
+    at runTest (C:\ПРАКТИКА ДЕВОПС\4 practice\node_modules\jest-runner\build\index.js:343:7)</failure>
     </testcase>
     <testcase classname=" throws on wrong input" name=" throws on wrong input" time="0.006">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.049" tests="2">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-19T04:35:58" time="0.071" tests="2">
     <testcase classname=" integration: load + index + search" name=" integration: load + index + search" time="0.001">
     </testcase>
-    <testcase classname=" integration: file not empty" name=" integration: file not empty" time="0">
+    <testcase classname=" integration: file not empty" name=" integration: file not empty" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-18T05:36:05" time="0.046" tests="3">
-    <testcase classname=" find existing word" name=" find existing word" time="0">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-02-19T04:35:59" time="0.055" tests="3">
+    <testcase classname=" find existing word" name=" find existing word" time="0.001">
     </testcase>
-    <testcase classname=" missing word returns empty" name=" missing word returns empty" time="0">
+    <testcase classname=" missing word returns empty" name=" missing word returns empty" time="0.001">
     </testcase>
-    <testcase classname=" negative: empty query throws" name=" negative: empty query throws" time="0.003">
+    <testcase classname=" negative: empty query throws" name=" negative: empty query throws" time="0.005">
     </testcase>
   </testsuite>
 </testsuites>
