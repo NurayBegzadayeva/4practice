@@ -17,7 +17,7 @@ test('multiple words', () => {
 
 test('empty array', () => {
   const idx = buildIndex([]);
-  expect(2+2).toBe(5)
+  expect(idx).toEqual({});
 });
 
 test('throws on wrong input', () => {
